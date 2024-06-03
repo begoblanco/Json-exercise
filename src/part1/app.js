@@ -1,4 +1,4 @@
-fetch("toDos.json")
+fetch("/src/toDos.json")
 
   .then((response) => response.json())
 
